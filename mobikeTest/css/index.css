@@ -1,0 +1,436 @@
+html, body, .wrap, .swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrap{
+    position: relative;
+}
+
+.main-md{
+    max-width: 1040px;
+    height: 100%;
+    margin: auto;
+    padding:0 20px;
+}
+
+.wrap .header{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+.header .subMain .logo{
+    display:block;
+    float:left;
+    padding-top:21px;
+    width: 100px;
+}
+
+.subMain ul{
+    float:right;
+}
+
+.subMain ul li{
+    float: left;
+    height: 34px;
+    padding-top:23px;
+    margin:0 20px;
+}
+
+.subMain li a{
+    display: block;
+    color:#fff;
+    font-size:16px;
+    text-decoration:none;
+}
+
+/*文字标题*/
+.wrap .title{
+    width: 100%;
+    height: 67px;
+    position: absolute;
+    left: 0;
+    top:330px;
+    z-index:1;
+}
+.wrap .title h1{
+    height: 67px;
+    line-height:67px;
+    font-size:67px;
+    font-weight:bold;
+    color:#fff;
+}
+
+/*使用摩拜*/
+.wrap .useMobike{
+    width: 100%;
+    position:absolute;
+    left: 0;
+    top:415px;
+    z-index:1;
+}
+
+.wrap .useMobike .bg{
+    width: 300px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    border-radius:6px;
+
+}
+.wrap .useMobike .bg a{
+    font-size:22px;
+    height: 60px;
+    line-height:60px;
+    padding-left:35px;
+    color:#fff;
+}
+
+/*news*/
+.wrap .news{
+    height: 42px;
+    width: 100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index:1;
+    background-color: rgba(122,112,101,.4);
+}
+
+.news .news-link{
+    display: block;
+    height: 22px;
+    width: 100%;
+    padding-top:10px;
+}
+.news .news-link .news-icon{
+    font-size:12px;
+    border-radius:4px;
+    background-color: red;
+    color:#fff;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    padding-left:12px;
+    float:left;
+}
+.news .news-link .news-text{
+    font-size:16px;
+    color:white;
+    margin-left:5px;
+    height: 22px;
+    line-height: 22px;
+    float:left;
+}
+
+/*宣传广告*/
+.ad{
+    margin-top:2px;
+    margin-left:-2px;
+}
+.ad .subAd{
+    float:left;
+    width: 25%;
+    height: 260px;
+    box-sizing: border-box;
+    border-left: 2px solid #fff;
+}
+.ad .subAd a{
+    display: block;
+    width: 100%;
+    height: 240px;
+    color:#fff;
+    font-size:24px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:20px;
+}
+
+/*meta-links*/
+.meta-links{
+    height: 140px;
+}
+
+.meta-links .meta-link{
+    height: 50px;
+    width: 33.33%;
+    margin:45px 0;
+    float:left;
+    box-sizing: border-box;
+}
+.meta-links .meta-link img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.meta-link h4, .meta-link p{
+    font-size:16px;
+    margin-left:62px;
+    width: 160px;
+}
+
+.meta-links .meta-link:nth-child(2){
+    padding-left:8%;
+}
+.meta-links .meta-link:nth-child(3){
+    padding-left:13%;
+}
+
+
+
+/*关于摩拜*/
+.link{
+    height: 245px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.link .ltd-msg, .link .ltd-links{
+    height: 155px;
+    margin-top:45px;
+}
+
+.link .ltd-msg{
+    width: 33.33%;
+    float: left;
+}
+
+.link .ltd-links{
+    float: right;
+    width: 66.67%;
+}
+
+.link .ltd-msg li{
+    height: 26px;
+    font-size:16px;
+    padding-top:10px;
+}
+
+.link .ltd-msg a{
+    display: block;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:-14px;
+}
+
+.link .product{
+    width: 45px;
+}
+
+.link .product h3{
+    height: 36px;
+    font-size: 17px;
+}
+
+.link .product a{
+    display: block;
+    height: 15px;
+    font-size:15px;
+    /*font-weight: lighter;*/
+    padding:7.5px 0;
+    color:#000;
+}
+
+.link .ltd-links li{
+    float:left;
+}
+
+.link .ltd-links li{
+    margin-left: 100px;
+}
+.link .ltd-links li:nth-child(2){
+    width: 36px;
+}
+.link .ltd-links li:nth-child(3){
+    width: 81px;
+}
+.link .ltd-links li:nth-child(4){
+    width: 71px;
+}
+
+/*底部*/
+.footer{
+    height: 148px;
+}
+
+.footer ul{
+    height: 54px;
+    padding-top:46px;
+}
+
+.footer .footer-left{
+    height: 100%;
+    float: left;
+    font-size:12px;
+    line-height: 27px;
+}
+
+.footer .footer-left i{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    vertical-align:-3px
+}
+
+.footer .footer-right{
+    float:right;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:7px 10px;
+}
+
+/*移动端iPad*/
+@media screen and (max-width: 1080px){
+    .header .subMain ul{
+        display: none;
+    }
+
+    .main-md{
+        width: 100%;
+        margin:auto;
+    }
+    .wrap{
+        height: 691px;
+    }
+    .ad .subAd{
+        width: 50%;
+        border:1px solid #fff;
+    }
+    .ad div:nth-child(odd){
+        border-left:none;
+    }
+    .ad div:nth-child(even){
+        border-right:none;
+    }
+
+    .meta-links .meta-link:nth-child(2){
+        padding-left:0;
+    }
+    .meta-links .meta-link:nth-child(3){
+        padding-left:0;
+    }
+
+    .link .ltd-links li{
+        margin-left: 50px;
+    }
+
+    .footer .footer-right{
+        margin-right:5%;
+    }
+}
+
+/*移动端iphoneX*/
+@media screen and (max-width:375px){
+    .wrap{
+        height: 590px;
+    }
+    .wrap .title{
+        top:250px;
+        height: 88px;
+    }
+    .wrap .title h1{
+        height: 88px;
+        width: 337px;
+        line-height:44px;
+        font-size:44px;
+    }
+
+    .wrap .useMobike{
+        top:350px;
+    }
+
+    .wrap .news{
+        height: 64px;
+        width: 315px;
+        margin:auto;
+    }
+
+    .news .news-link{
+        height: 44px;
+        padding:10px 0;
+    }
+
+    .news .news-link .news-icon{
+        width: 40px;
+        height: 18px;
+        line-height: 18px;
+        margin-top:15px;
+    }
+    .news .news-link .news-text{
+        height: 44px;
+        width: 256px;
+    }
+
+    .ad .subAd{
+        width: 100%;
+        border:2px solid #fff;
+        border-left:none;
+        border-right:none;
+        margin-top:-2px;
+    }
+    .meta-links{
+        width: 335px;
+        height: 270px;
+    }
+    .meta-links .meta-link{
+        margin:20px 0;
+        width: 100%;
+    }
+
+
+    .link{
+        height: 570px;
+    }
+    .link .ltd-msg, .link .ltd-links{
+        width: 100%;
+        margin-top:45px;
+    }
+
+    .link .ltd-links li{
+        width: 50%;
+        height: 150px;
+    }
+
+    .link .ltd-links li{
+        margin-left: 0;
+    }
+
+
+    .link .ltd-links li:nth-child(2){
+        width: 50%;
+    }
+    .link .ltd-links li:nth-child(3){
+        width: 50%;
+    }
+    .link .ltd-links li:nth-child(4){
+        width: 50%;
+    }
+
+    .footer .footer-left, .footer .footer-right{
+        width: 280px;
+    }
+    .footer .footer-right{
+        float:left;
+        margin:60px 0;
+    }
+
+}
+
+
